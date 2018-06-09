@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="07b81702-4d94-4b76-b098-93d90ecba190" name="index" url="http://39.106.144.88">
+        <fileTransfer host="39.106.144.88" port="22" rootFolder="/phpstudy/www/index" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="406d44bb-5185-4f44-bfa4-0497ddc6e04a" name="scripts" url="http://39.106.144.88">
+        <fileTransfer host="39.106.144.88" port="22" rootFolder="/phpstudy/www/scripts" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
