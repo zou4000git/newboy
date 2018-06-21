@@ -8,7 +8,7 @@ class IndexController extends Controller
     {
         $criteria = new CDbCriteria();
         $criteria->select =  "english" ;
-        $criteria->addCondition("id<3");
+        $criteria->addCondition("id !=  3");
 
 
         $results = good::model()->findall($criteria);
